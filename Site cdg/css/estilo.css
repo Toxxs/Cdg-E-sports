@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+input {
+    display: block;
+}
+/* background */ 
+body {
+    background-image: url("../imagens/lords-mobile2.jpg");
+    background-position: 10% 50%;
+    color: white;
+    font-family: Arial
+}
+/* botões */ 
+input {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px; 
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    outline: none;
+}
+/* cadastro */
+div#form {
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+/* cadastro */
+div#form-cad {
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+/* cadastro */
+div#form h1, div#form-cad h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type=submit] {
+    background-color: rgba(0, 0, 0, 0.438);
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255 ,255, 0.348);
+}
